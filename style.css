@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #e90a0a;
+    color: white;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 8%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 24px;
+    font-size: 20px;
+}
+
+.time-imagem{
+    width: 30%;
+}
+
+.Time{
+    background-image: linear-gradient(#e90a0a,rgb(92, 17, 4));
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.Time-div-conteudo{
+    width: 35%;
+}
+.Time-titulo{
+    padding: 9%;
+}
+
+.Jogadores-imagem{
+    width: 120px;
+}
+
+.Jogador-icone{
+    width: 24px;
+}
+
+.Jogadores-div{
+    text-align: center;
+}
+
+.Jogadores-titulo{
+    text-align: center;
+    padding: 35px 0;
+}
+
+.Jogadores-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: rgb(205, 4, 4);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 35px;
+    padding: 12px 0;
+    
+}
